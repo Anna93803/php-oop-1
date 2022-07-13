@@ -28,6 +28,7 @@ $movie6 = new Movie("Steve Jobs", "https://www.macitynet.it/wp-content/uploads/2
     <body class="bg-danger">
         <div class="container py-5 d-flex justify-content-center">
             <div class="row text-center">
+                <h1 class="text-light text-uppercase fw-bold">Movies</h1>
                 <div class="col">
                     <div><?php echo $movie1->printMovie() ?></div>
                     <div><?php echo $movie2->printMovie() ?></div>
